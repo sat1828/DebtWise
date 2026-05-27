@@ -1,0 +1,23 @@
+{
+  "name": "debtwise",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-Powered Debt Negotiation Copilot — Know your rights, negotiate better, settle for less.",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "setup": "npm install",
+    "build": "npm run build -w client && npm run build -w server",
+    "start": "npm run start -w server",
+    "dev": "concurrently \"npm run dev -w server\" \"npm run dev -w client\"",
+    "dev:server": "npm run dev -w server",
+    "dev:client": "npm run dev -w client",
+    "lint": "npm run lint -w server && npm run lint -w client",
+    "test": "npm run test -w server && npm run test -w client"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
