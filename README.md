@@ -1,6 +1,6 @@
 <div align="center">
 
-![DebtWise](./assets/readme/banner.svg)
+![DebtWise](./banner.svg)
 
 <br/>
 
@@ -27,7 +27,7 @@ DebtWise is a full-stack TypeScript application that calculates your exact statu
 
 ## The Flow
 
-![User Flow](./assets/readme/userflow.svg)
+![User Flow](./userflow.svg)
 
 Add a debt → AI calculates SOL, risk score, violations → know your position → generate documents → get live coached on the call → track to settlement.
 
@@ -35,7 +35,7 @@ Add a debt → AI calculates SOL, risk score, violations → know your position 
 
 ## Dashboard
 
-![Dashboard](./assets/readme/dashboard.svg)
+![Dashboard](./dashboard.svg)
 
 Two debts ship with the demo account. **Capital One** ($4,785.43 — `credit_card`, `status: disputed`, 2 FDCPA violations, `legal_risk_score: 35`, SOL expires 2028-04-01). **Sutter Health** ($5,400.00 — `medical`, `status: time_barred`, `is_time_barred: 1`, `legal_risk_score: 15`, SOL expired 2024-01-15). Both seeded with real violations, deadlines, and an AI thread.
 
@@ -43,7 +43,7 @@ Two debts ship with the demo account. **Capital One** ($4,785.43 — `credit_car
 
 ## AI Debt Analysis
 
-![Analysis](./assets/readme/analysis.svg)
+![Analysis](./analysis.svg)
 
 `runDebtAnalysis(debt, state)` — the entire intelligence layer. Reads `date_of_default` or `date_of_last_payment`, looks up `SOL_TABLE[state][debt_type]`, computes `solExpiry`, scores 0–100, detects violations from `collector_violations` JSON, picks settlement percentages, and returns a `DebtAnalysis` object with a full markdown summary.
 
@@ -51,7 +51,7 @@ Two debts ship with the demo account. **Capital One** ($4,785.43 — `credit_car
 
 ## Negotiation Wizard + Live Call Coach
 
-![Negotiation](./assets/readme/negotiation.svg)
+![Negotiation](./negotiation.svg)
 
 Five steps. Step 5 activates `Socket.IO`. The collector says something → you type it → `call:transcript` fires → server waits 800ms → `call:suggestion` returns a verbatim phrase with its legal justification. Four response patterns, zero vagueness.
 
@@ -59,7 +59,7 @@ Five steps. Step 5 activates `Socket.IO`. The collector says something → you t
 
 ## Know Your Rights
 
-![Rights](./assets/readme/rights.svg)
+![Rights](./rights.svg)
 
 Six sections. The SOL table on the right pulls directly from the same `SOL_TABLE` constant used by `runDebtAnalysis()` — 16 states, every debt type, hardcoded and exact.
 
@@ -67,7 +67,7 @@ Six sections. The SOL table on the right pulls directly from the same `SOL_TABLE
 
 ## System Architecture
 
-![Architecture](./assets/readme/architecture.svg)
+![Architecture](./architecture.svg)
 
 ---
 
