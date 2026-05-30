@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1100 520" xmlns="http://www.w3.org/2000/svg" font-family="Inter,system-ui,sans-serif">
+  <defs>
+    <linearGradient id="rbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0a0a14"/><stop offset="100%" stop-color="#0e0e22"/></linearGradient>
+    <linearGradient id="rg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#14b8a6"/></linearGradient>
+    <filter id="rf"><feGaussianBlur stdDeviation="42"/></filter>
+    <clipPath id="rclip"><rect width="1100" height="520" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#rclip)">
+  <rect width="1100" height="520" fill="url(#rbg)"/>
+  <ellipse cx="150" cy="200" rx="200" ry="160" fill="#6366f1" opacity="0.06" filter="url(#rf)"/>
+  <ellipse cx="980" cy="360" rx="180" ry="150" fill="#14b8a6" opacity="0.05" filter="url(#rf)"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1100" height="52" fill="rgba(9,11,26,0.92)" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <rect x="16" y="13" width="26" height="26" rx="7" fill="url(#rg)"/>
+  <text x="29" y="30" font-size="9" font-weight="800" text-anchor="middle" fill="white">DW</text>
+  <text x="52" y="32" font-size="14" font-weight="700" fill="#f1f5f9">DebtWise</text>
+  <text x="96" y="32" font-size="11" fill="#64748b">/ Know Your Rights</text>
+  <!-- Headings -->
+  <text x="16" y="75" font-size="20" font-weight="800" fill="#f8fafc">⚖ Know Your Rights</text>
+  <text x="16" y="93" font-size="12" fill="#94a3b8">Debt collectors count on you not knowing the law. Every right on this page is yours — federally protected.</text>
+  <!-- Section tabs — FDCPA active -->
+  <rect x="12" y="103" width="104" height="26" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="64" y="120" font-size="10.5" font-weight="600" text-anchor="middle" fill="white">⚖ FDCPA</text>
+  <text x="152" y="120" font-size="10.5" fill="#64748b">⏰ SOL</text>
+  <text x="212" y="120" font-size="10.5" fill="#64748b">📋 Validation</text>
+  <text x="292" y="120" font-size="10.5" fill="#64748b">📊 Credit</text>
+  <text x="360" y="120" font-size="10.5" fill="#64748b">🗺 State Laws</text>
+  <text x="448" y="120" font-size="10.5" fill="#64748b">🛡 Get a Lawyer</text>
+  <!-- FDCPA content card -->
+  <rect x="12" y="136" width="692" height="368" rx="14" fill="rgba(17,25,40,0.75)" stroke="rgba(255,255,255,0.07)" stroke-width="0.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.2s"/></rect>
+  <text x="38" y="162" font-size="24">⚖</text>
+  <text x="70" y="162" font-size="16" font-weight="700" fill="#f8fafc">Fair Debt Collection Practices Act</text>
+  <text x="32" y="180" font-size="11" fill="#64748b">15 U.S.C. § 1692 — applies to third-party collectors and debt buyers · enforced by CFPB</text>
+  <!-- 10 FDCPA items — exact from code -->
+  <rect x="24" y="190" width="668" height="24" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="38" y="206" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692c(a)(1)</tspan> — No calls before 8 AM or after 9 PM your local time</text>
+  <rect x="24" y="218" width="668" height="24" rx="6" fill="rgba(255,255,255,0.025)"/>
+  <text x="38" y="234" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692c(b)</tspan> — Cannot discuss your debt with employer, family, or neighbors</text>
+  <rect x="24" y="246" width="668" height="24" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="38" y="262" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692c(c)</tspan> — You can demand all contact cease — Cease and Desist</text>
+  <rect x="24" y="274" width="668" height="24" rx="6" fill="rgba(255,255,255,0.025)"/>
+  <text x="38" y="290" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692d</tspan> — No harassment, oppression, or abuse of any kind</text>
+  <rect x="24" y="302" width="668" height="24" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="38" y="318" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692e</tspan> — No false, deceptive, or misleading representations</text>
+  <rect x="24" y="330" width="668" height="24" rx="6" fill="rgba(255,255,255,0.025)"/>
+  <text x="38" y="346" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692e(2)</tspan> — Cannot misrepresent the amount or legal status of the debt</text>
+  <rect x="24" y="358" width="668" height="24" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="38" y="374" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692e(5)</tspan> — Cannot threaten action they cannot or will not take</text>
+  <rect x="24" y="386" width="668" height="24" rx="6" fill="rgba(255,255,255,0.025)"/>
+  <text x="38" y="402" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692f</tspan> — Cannot use unfair or unconscionable means to collect</text>
+  <rect x="24" y="414" width="668" height="24" rx="6" fill="rgba(255,255,255,0.03)"/>
+  <text x="38" y="430" font-size="11" fill="#e2e8f0">• <tspan fill="#818cf8" font-weight="600">§ 1692g</tspan> — Must send written validation notice within 5 days of first contact</text>
+  <rect x="24" y="442" width="668" height="24" rx="6" fill="rgba(255,255,255,0.025)"/>
+  <text x="38" y="458" font-size="11" fill="#e2e8f0">• <tspan fill="#2dd4bf" font-weight="600">§ 1692k</tspan> — You can sue · actual damages + <tspan fill="#2dd4bf" font-weight="700">up to $1,000</tspan> statutory + attorney fees</text>
+  <!-- State law box (exact STATE_LAWS from code) -->
+  <rect x="24" y="474" width="668" height="44" rx="8" fill="rgba(20,184,166,0.1)" stroke="rgba(20,184,166,0.25)" stroke-width="0.5"/>
+  <text x="40" y="492" font-size="11" font-weight="600" fill="#2dd4bf">Extra State Protections (STATE_LAWS in debtAnalysis.ts)</text>
+  <text x="40" y="508" font-size="10" fill="#94a3b8">CA: Rosenthal FDCPA (§§ 1788) covers original creditors  ·  FL: FCCPA (§§ 559.55)  ·  NY: CCFA (3-yr SOL)</text>
+  <!-- SOL table right panel — all 16 states from SOL_TABLE -->
+  <rect x="718" y="136" width="370" height="368" rx="14" fill="rgba(17,25,40,0.75)" stroke="rgba(255,255,255,0.07)" stroke-width="0.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" fill="freeze" begin="0.5s"/></rect>
+  <text x="738" y="162" font-size="13" font-weight="700" fill="#f1f5f9">⏰ SOL_TABLE — Credit Card</text>
+  <text x="738" y="178" font-size="10" fill="#64748b">Hardcoded in debtAnalysis.ts · 16 states + default:4</text>
+  <line x1="726" y1="184" x2="1080" y2="184" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <text x="738" y="200" font-size="10" fill="#64748b" font-weight="600">STATE</text>
+  <text x="1078" y="200" font-size="10" fill="#64748b" font-weight="600" text-anchor="end">CC SOL</text>
+  <line x1="726" y1="204" x2="1080" y2="204" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <!-- SOL rows — exact from SOL_TABLE -->
+  <text x="738" y="222" font-size="11.5" fill="#e2e8f0">California (CA)</text><text x="1078" y="222" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">4 yrs</text>
+  <text x="738" y="241" font-size="11.5" fill="#e2e8f0">New York (NY)</text><text x="1078" y="241" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">3 yrs</text>
+  <text x="738" y="260" font-size="11.5" fill="#e2e8f0">Florida (FL)</text><text x="1078" y="260" font-size="13" fill="#f59e0b" font-weight="700" text-anchor="end">5 yrs</text>
+  <text x="738" y="279" font-size="11.5" fill="#e2e8f0">Texas (TX)</text><text x="1078" y="279" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">4 yrs</text>
+  <text x="738" y="298" font-size="11.5" fill="#e2e8f0">Illinois (IL)</text><text x="1078" y="298" font-size="13" fill="#f59e0b" font-weight="700" text-anchor="end">5 yrs</text>
+  <text x="738" y="317" font-size="11.5" fill="#e2e8f0">Ohio (OH)</text><text x="1078" y="317" font-size="13" fill="#f87171" font-weight="700" text-anchor="end">6 yrs</text>
+  <text x="738" y="336" font-size="11.5" fill="#e2e8f0">Georgia (GA)</text><text x="1078" y="336" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">4 yrs</text>
+  <text x="738" y="355" font-size="11.5" fill="#e2e8f0">North Carolina (NC)</text><text x="1078" y="355" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">3 yrs</text>
+  <text x="738" y="374" font-size="11.5" fill="#e2e8f0">Michigan (MI)</text><text x="1078" y="374" font-size="13" fill="#f87171" font-weight="700" text-anchor="end">6 yrs</text>
+  <text x="738" y="393" font-size="11.5" fill="#e2e8f0">Pennsylvania (PA)</text><text x="1078" y="393" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">4 yrs</text>
+  <text x="738" y="412" font-size="11.5" fill="#e2e8f0">New Jersey (NJ)</text><text x="1078" y="412" font-size="13" fill="#f87171" font-weight="700" text-anchor="end">6 yrs</text>
+  <text x="738" y="431" font-size="11.5" fill="#e2e8f0">Virginia (VA)</text><text x="1078" y="431" font-size="13" fill="#2dd4bf" font-weight="700" text-anchor="end">3 yrs</text>
+  <text x="738" y="450" font-size="11.5" fill="#e2e8f0">WA · AZ · CO · MA</text><text x="1078" y="450" font-size="13" fill="#f59e0b" font-weight="700" text-anchor="end">4–6 yrs</text>
+  <!-- Warning box -->
+  <rect x="726" y="462" width="354" height="52" rx="8" fill="rgba(239,68,68,0.1)" stroke="rgba(239,68,68,0.25)" stroke-width="0.5"/>
+  <text x="742" y="480" font-size="11" font-weight="700" fill="#f87171">⚠ Critical — SOL Restart Warning</text>
+  <text x="742" y="496" font-size="10" fill="#94a3b8">ANY payment (even $1) can restart the clock in most states.</text>
+  <text x="742" y="509" font-size="10" fill="#94a3b8">Never pay a time-barred debt. getChatResponse() warns of this.</text>
+  </g>
+</svg>
